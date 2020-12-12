@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h2 style="text-align:center; padding-top:100px;">졸업할 수 있겠조?</h2>
+    <div class="table-alli">
+    <h4>수강한 강의 입력</h4>
+    <form>
+        <div class = "insertt" >강의명</div>
+        <div class = "insertt" >강의종류</div>
+        <div class = "insertt" >학점</div>
+        <br>
+        <div class = "insertt" ><input id = "lecture_name" ></input></div>
+        <div class = "insertt" ><input id = "lecture_type"></input></div>
+        <div class = "insertt" ><input id = "lecture_credit"></input></div>
+        <input type="submit"></input>
+    </form>
+    </br></br></br></br><h4>수강해야 하는 강의 목록</h4>
+        <table class ="table table-bordered">
+            <thead>
+                <tr>
+                    <th class ="numbers" style="text-align:center">과목명</th>
+                    <th id = "listTitle" style="text-align:center">과목종류</th>
+                    <th id = "listTitle" style="text-align:center">학점</th>
+                </tr>
+            </thead>
+            <tbody id ="listTarget">
+
+            </tbody>
+        </table>
+        </br></br></br></br><h4>이수학점 및 요구 학점</h4>
+        <table class ="table table-bordered">
+            <thead>
+                <tr>
+                    <th class ="numbers" style="text-align:center">전공선택</th>
+                    <th id = "listTitle" style="text-align:center">전공필수</th>
+                    <th id = "listTitle" style="text-align:center">총 이수 학점</th>
+                </tr>
+            </thead>
+            <tbody id ="listTarget">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
